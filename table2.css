@@ -2,13 +2,26 @@
     border: 1px solid black
 
 } */
-table{
+table , td, th {
     border: 1px solid black;
-    font-size: 24px;
+    width: 30%;
     text-align: center;
-    width: 25%;
 }
-td{
-    border: 1px solid black;
+th, td {
+    padding: 15px;
+
+
+}
+th:hover{
+    background-color:burlywood;
+}
+
+td:hover{
+    background-color:lightgreen;
     
 }
+
+/* td:nth-child(odd){
+    background-color:lightgray;
+} */
+
