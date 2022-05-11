@@ -4,7 +4,11 @@
 } */
 table{
     border: 1px solid black;
-    margin: 15px;
     font-size: 24px;
-   
+    text-align: center;
+    width: 25%;
+}
+td{
+    border: 1px solid black;
+    table-style-type: disc;
 }
